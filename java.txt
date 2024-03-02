@@ -1,7 +1,5 @@
 void main{
 
-printf "hi"
-
 printf "hello world devops"
 
 }

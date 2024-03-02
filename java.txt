@@ -1,7 +1,7 @@
 void main{
 
-printf "hi"
-
 printf "praveen values are important"
+printf "hello world devops"
+
 
 }

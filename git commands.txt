@@ -1,0 +1,72 @@
+1. git init: Creates a new Git repository in the current directory.
+    git init 
+
+2. git clone: Creates a local copy of a remote Git repository.
+    git clone <github repo URL>
+	
+3. git add: Adds files to the staging area, which is a temporary area where you can prepare changes before committing them to the repository.
+    git add . or git add specific file name
+	
+4. git commit: Creates a new snapshot of the repository, including the changes that have been staged.
+    git commit -m "message"
+	
+5. git push: Pushes the local changes to the remote repository.
+    git push -u origin <brach name>
+	
+6. git pull: Fetches and merges the latest changes from the remote repository.
+    git pull 
+7. git checkout: Switches to a different branch.
+    git checkout branchname
+	git checkout -b branchname
+	
+8. git branch: Creates a new branch.
+    git branch branch-name
+	
+9. git merge: Merges two branches together.
+    git merge < source branch > < destination branch >
+	
+10. git diff: Shows the differences between two versions of a file or branch.
+      git diff file1 and file2
+	  
+11. git status: Shows the current state of the working directory and the staging area.
+     git status
+	 
+12.git log: Shows a history of all the commits made to the repository.
+     git log 
+
+13. git stash: Saves the current state of the working directory to a temporary area, so that you can switch to a different branch or make other changes without losing your work.
+      git stash 
+	  
+14.git reset: Undoes changes that have been made to the working directory or the staging area.
+     git reset
+	 
+15.git tag: Creates a bookmark at a specific commit in the repository's history.
+     git tag <tag name>
+	 
+16. git rebase: Moves a sequence of commits to a different base commit.
+      git rebase <commit id>
+	  
+17.git revert: Undoes a specific commit by creating a new commit that reverses the changes made in the original commit.
+     git revert commit id
+	 
+18.git cherry-pick:Applies the changes of a specific commit to your current branch.
+     git cherry-pick <commit_hash>
+
+19. git remote show:Displays information about a remote repository, including branches and their tracking branches
+     git remote show origin
+	 
+20. git clean:Removes untracked files from your working directory
+      git clean -n  # Dry-run, shows what would be deleted
+      git clean -f  # Actually deletes the untracked files
+	  
+21.git branch -d: Deletes a branch.
+     git branch -d branch_name
+	 
+22.git branch -m: Renames the current branch.
+     git branch -m new_branch_name
+
+23.git config: Sets configuration values for your user, your repositories, or Git itself.
+     git config --global user.name "Your Name"
+	 
+24. git rm - Removes files from both the working directory and the index
+      git rm filename
